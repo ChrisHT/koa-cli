@@ -1,0 +1,43 @@
+{
+  "name": "koa-cli",
+  "version": "1.0.0",
+  "description": "基于koa2的简单脚手架",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "lint": "eslint . --fix",
+    "doc": "apidoc -i src/controller -o doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "ChrisHT",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "@koa/router": "^8.0.5",
+    "axios": "^0.18.0",
+    "bluebird": "^3.7.2",
+    "crypto": "^1.0.1",
+    "ioredis": "^4.16.3",
+    "escape-string-regexp": "^4.0.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.6",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.13",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-egg": "^7.2.0",
+    "nodemon": "^2.0.2"
+  }
+}

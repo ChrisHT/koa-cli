@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "newline-per-chained-call": "off",
+    "valid-jsdoc": "off",
+    "jsdoc/require-param": "off",
+    "jsdoc/check-tag-names": "off",
+    "prefer-const": "off"
+  },
+  "globals": {
+    "logger": "writable"
+  },
+  "extends": [
+    "eslint-config-egg"
+  ]
+}

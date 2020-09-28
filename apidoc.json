@@ -1,0 +1,12 @@
+{
+  "name": "koa-cli",
+  "version": "1.0.0",
+  "description": "",
+  "title": "koa-cli",
+  "url": "",
+  "sampleUrl": "",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
